@@ -31,15 +31,70 @@
   left: 99.8%;
 }
 .setMainObj{
+  /* position: relative; */
   width: 40%;
-  bottom: 0%;
+  margin-top: 27%;
   left: 50%;
   z-index: 1;
 }
 .setkiller{
   left: -5%;
-  bottom:-5%;
+  /* bottom:-5%; */
+  margin-top: 24%;
   z-index: 1;
+}
+.setCowpower{
+  margin-top:35%;
+  /* position: absolute; */
+  left: 65%;
+  width: 5%;
+  z-index: 50px !important;
+}
+@media only screen and (max-width: 800px){
+  
+  .setCowpower{
+    margin-top:40%;
+    /* position: absolute; */
+    left: 65%;
+    width: 5%;
+    z-index: 50px !important;
+  }
+  .setMainObj{
+    /* position: relative; */
+    width: 40%;
+    margin-top: 29%;
+    left: 50%;
+    z-index: 1;
+  }
+  .setkiller{
+    left: -5%;
+    /* bottom:-5%; */
+    margin-top: 27%;
+    z-index: 1;
+  }
+}
+@media only screen and (max-width: 600px){
+  
+  .setCowpower{
+    margin-top:42%;
+    /* position: absolute; */
+    left: 65%;
+    width: 5%;
+    z-index: 50px !important;
+  }
+  .setMainObj{
+    /* position: relative; */
+    width: 40%;
+    margin-top: 32%;
+    left: 50%;
+    z-index: 1;
+  }
+  .setkiller{
+    left: -5%;
+    /* bottom:-5%; */
+    margin-top: 30%;
+    z-index: 1;
+  }
 }
 .color_adjust{
   width: 30%;
@@ -56,13 +111,6 @@
   box-shadow: 0px 0px 15px black;
   opacity: 0.5;
   margin-left: 2%;
-}
-.setCowpower{
-  top:75%;
-  position: absolute;
-  left: 65%;
-  width: 5%;
-  z-index: 50px !important;
 }
 .message{
   text-align: center;
